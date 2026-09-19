@@ -30,10 +30,6 @@ L = L_CLIP + L_scene + L_entity + L_composition
 
 ## Visual overview
 
-### Semantic-specific visual evidence
-
-![Comparison of unified visual representations and VEGA's heterogeneous visual evidence](assets/figure1_comparison.png)
-
 ### Overall framework
 
 ![Overall VEGA framework](assets/figure2_framework.png)
@@ -41,10 +37,6 @@ L = L_CLIP + L_scene + L_entity + L_composition
 ### FG-SGE module
 
 ![FG-SGE architecture](assets/figure3_fg-sge.png)
-
-### F-SAMGA module
-
-![F-SAMGA architecture](assets/figure4_f-samga.png)
 
 ## Repository contents
 
