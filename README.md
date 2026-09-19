@@ -4,7 +4,7 @@
 
 VEGA (Visual Evidence-Guided Alignment) is a remote sensing image–text retrieval framework that matches different textual semantics with different types of visual evidence. Instead of aligning every semantic level with one shared visual representation, VEGA explicitly models scene layout, local entities, and inter-object composition.
 
-This repository provides the core implementation of VEGA, combining frequency-guided structural graph enhancement (FG-SGE) with semantic-aware multi-granularity alignment (F-SAMGA) for fine-grained remote sensing image–text retrieval.
+This repository contains the official implementation code for the paper *Beyond Feature Alignment: Heterogeneous Visual Evidence Matching for Remote Sensing Image–Text Retrieval*.
 
 ## Highlights
 
