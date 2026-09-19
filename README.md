@@ -28,6 +28,24 @@ The training objective is:
 L = L_CLIP + L_scene + L_entity + L_composition
 ```
 
+## Visual overview
+
+### Semantic-specific visual evidence
+
+![Comparison of unified visual representations and VEGA's heterogeneous visual evidence](assets/figure1_comparison.png)
+
+### Overall framework
+
+![Overall VEGA framework](assets/figure2_framework.png)
+
+### FG-SGE module
+
+![FG-SGE architecture](assets/figure3_fg-sge.png)
+
+### F-SAMGA module
+
+![F-SAMGA architecture](assets/figure4_f-samga.png)
+
 ## Repository contents
 
 ```text
@@ -45,18 +63,6 @@ The paper evaluates VEGA on:
 - **RSICD**: 10,921 images, 30 scene categories, five captions per image.
 - **RSITMD**: 4,743 images, 32 scene categories, five captions per image.
 - **UCM-Captions**: 2,100 images, 21 land-use categories, five captions per image.
-
-## Citation
-
-If you find this work useful, please cite the corresponding paper:
-
-```bibtex
-@article{vega2026,
-  title   = {Beyond Feature Alignment: Heterogeneous Visual Evidence Matching for Remote Sensing Image-Text Retrieval},
-  journal = {Pattern Recognition},
-  year    = {2026}
-}
-```
 
 ## License
 
