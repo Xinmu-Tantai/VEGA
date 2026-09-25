@@ -39,6 +39,10 @@ L = L_CLIP + L_scene + L_entity + L_composition
 
 ![FG-SGE architecture](assets/figure3_fg-sge.png)
 
+### F-SAMGA module
+
+![F-SAMGA architecture](assets/figure4_f-samga.png)
+
 ## Repository contents
 
 ```text
