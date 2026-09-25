@@ -1,4 +1,5 @@
 import os
+import sys
 import re
 import json
 import torch
@@ -26,6 +27,9 @@ from copy import deepcopy
 import spacy
 # from AVE import StructureAwareMultiGranularityAlignment
 # from SAMGA import LSRFormerBidirectional
+fg_sge_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'FG-SGE')
+if fg_sge_dir not in sys.path:
+    sys.path.insert(0, fg_sge_dir)
 from F_SAMGA import FrequencyGuidedStructureAwareMultiGranularityAlignment
 from AVE_FGSGE_DWT4 import FGSGE_LSRFormerBidirectional
 

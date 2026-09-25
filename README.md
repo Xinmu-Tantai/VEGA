@@ -44,7 +44,8 @@ L = L_CLIP + L_scene + L_entity + L_composition
 
 ```text
 VEGA/
-├── AVE_FGSGE_DWT4.py   # FG-SGE visual evidence construction
+├── FG-SGE/
+│   └── AVE_FGSGE_DWT4.py # FG-SGE visual evidence construction
 ├── F_SAMGA.py          # F-SAMGA semantic-specific alignment
 ├── run.py              # training and retrieval entry point
 └── README.md
